@@ -24,7 +24,8 @@ Feature engineering is performed to prepare the dataset for model training. The 
 - Concatenation: Numerical and encoded categorical features are concatenated to form the final dataset.
 
 ## Model Training
-The logistic regression model is chosen for predicting loan default. The dataset is split into training and testing sets using the train_test_split function. The logistic regression model is then trained on the training set.
+The logistic regression model is chosen for predicting loan default. The dataset is split into training and testing sets using the train_test_split function. The logistic regression model is then trained on the training set. 
+The problem at hand involves predicting whether a loan will default or not, which is a binary classification task. Logistic regression is a widely used algorithm for binary classification problems, as it estimates the probability of an event occurring based on the input features.
 
 ## Model Evaluation
 The trained model is evaluated using various metrics to assess its performance. The following evaluation techniques are employed:
