@@ -4,10 +4,10 @@
 This project focuses on predicting loan defaults using a logistic regression model. The aim is to help identify customers who are more likely to default on their loans based on various factors such as age, income, homeownership, employment length, loan intent, and loan grade. The model is trained on a dataset and deployed as a web application for easy prediction.
 
 ### Dataset
-The project utilizes a dataset named "cr_loan2.csv". It contains information about customers and their loan details. The dataset is loaded using pandas and explored to gain insights into the data.
+The project utilizes a dataset named "cr_loan2.csv". It contains information about customers and their loan details. The dataset is loaded using Pandas and explored to gain insights into the data.
 
 ## Exploratory Data Analysis
-Several exploratory data analysis (EDA) techniques are employed to understand the dataset better and visualize relationships between variables. The EDA techniques used include:
+Several exploratory data analysis (EDA) techniques are employed to understand the dataset and visualize relationships between variables. The EDA techniques used include:
 
 - Histogram: The distribution of loan amounts is visualized using a histogram.
 - Scatter Plot: The relationship between personal income and age is plotted as a scatter plot.
@@ -41,10 +41,10 @@ The trained logistic regression model is deployed as a web application using the
 Files
 The project repository includes the following files:
 
-- jupyter_file.ipynb: Jupyter Notebook containing the project code and EDA analysis.
-- python_file.py: Python script for the loan default prediction web application.
-- model.joblib: Saved trained logistic regression model.
-- cr_loan2.csv: Dataset used for training and analysis.
+- credit_loan_default.ipynb: Jupyter Notebook containing the project code and EDA analysis.
+- app.py: Python script for the loan default prediction web application.
+- model.joblib: Saved trained logistic regression model
+- cr_loan2.csv: Dataset used for training and analysis
 
 ## Usage
 To run the loan default prediction web application locally, follow these steps:
