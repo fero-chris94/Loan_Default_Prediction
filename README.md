@@ -50,7 +50,7 @@ The project repository includes the following files:
 To run the loan default prediction web application locally, follow these steps:
 
 - Install the required libraries: pip install -r requirements.txt.
-- Run the Python script: python python_file.py.
+- Run the Python script: python app.py.
 - Access the web application through the provided local URL.
 
 ## Conclusion
