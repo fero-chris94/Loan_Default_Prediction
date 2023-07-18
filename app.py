@@ -89,6 +89,6 @@ with col2:
 if st.button('Predict Default'):
     loan_status = predict(person_age, person_income, person_home_ownership, person_emp_length, loan_intent, loan_grade, 
                           loan_amnt, loan_int_rate, loan_percent_income, cb_person_default_on_file, cb_person_cred_hist_length)
-    result = 'YES' if loan_status[0] == 1 else 'NO'
-    st.success(f'Application Result: {result}')
+    result = 'APPLICANT WILL DEFAULT' if loan_status[0] == 1 else 'APPLICANT WILL NOT DEFAULT'
+    st.success(f'PREDICTION: {result}')
 
